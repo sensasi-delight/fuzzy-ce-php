@@ -1,0 +1,22 @@
+{
+    "name": "sensasi-delight/fuzzy-ce-php",
+	"description": "A PHP library that Implements the Fuzzy Comprehensive Evaluation method to assist you in the conclusion of qualitative assessment.",
+    "type": "library",
+    "license": "MIT",
+	"keywords": ["qualitative", "assesment", "fuzzy comprehensive evaluation", "fuzzy evaluation method"],
+    "autoload": {
+        "psr-4": {
+            "SensasiDelight\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Zain Adam",
+            "email": "zainadam.id@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "markrogoyski/math-php": "^2.6"
+    }
+}
